@@ -1,0 +1,39 @@
+[2020-10-16T15:15:50.050Z] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting SareetaApplication on DESKTOP-8N4EKJG with PID 12084 (started by PC in C:\Users\PC\Desktop\udacity\proyecto 4\eCommerce)
+[2020-10-16T15:15:50.050Z] [org.springframework.boot.StartupInfoLogger] [main] [53] [DEBUG] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2020-10-16T15:15:50.050Z] [org.springframework.boot.SpringApplication] [main] [675] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-16T15:15:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-16T15:15:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-10-16T15:15:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.19]
+[2020-10-16T15:15:51.051Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-16T15:15:51.051Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2020-10-16T15:15:51.051Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-10-16T15:15:51.051Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-16T15:15:51.051Z] [org.hibernate.Version] [main] [46] [INFO ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-10-16T15:15:51.051Z] [org.hibernate.cfg.Environment] [main] [213] [INFO ] HHH000206: hibernate.properties not found
+[2020-10-16T15:15:51.051Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [49] [INFO ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-16T15:15:51.051Z] [org.hibernate.dialect.Dialect] [main] [157] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-10-16T15:15:53.053Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-16T15:15:53.053Z] [org.springframework.boot.StartupInfoLogger] [main] [59] [INFO ] Started SareetaApplication in 3.426 seconds (JVM running for 3.782)
+[2020-10-16T15:16:24.024Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-16T15:16:24.024Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-1] [51] [INFO ] Creating user test
+[2020-10-16T15:16:24.024Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-1] [59] [ERROR] Password length should be longer than 7 characters. Cannot create user test
+[2020-10-16T15:16:37.037Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [51] [INFO ] Creating user test
+[2020-10-16T15:16:37.037Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [62] [ERROR] Password doesn't match with confirm Password. Cannot create user test
+[2020-10-16T15:17:01.001Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-6] [51] [INFO ] Creating user test
+[2020-10-16T15:17:01.001Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-6] [69] [INFO ] User successfully created : test
+[2020-10-16T15:17:14.014Z] [org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter] [http-nio-8080-exec-7] [206] [DEBUG] Request is to process authentication
+[2020-10-16T15:17:14.014Z] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [http-nio-8080-exec-7] [47] [INFO ] HHH000397: Using ASTQueryTranslatorFactory
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.CartController] [main] [56] [INFO ] Cart added successfully for user : test
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.CartController] [main] [77] [INFO ] Item removed successfully for user : test
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.ItemController] [main] [41] [INFO ] Items fetched successfully by : 
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.OrderController] [main] [45] [INFO ] Order successfully saved for user : test
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.UserController] [main] [51] [INFO ] Creating user test
+[2020-10-16T15:21:22.022Z] [com.example.demo.controllers.UserController] [main] [69] [INFO ] User successfully created : test
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.CartController] [main] [56] [INFO ] Cart added successfully for user : test
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.CartController] [main] [77] [INFO ] Item removed successfully for user : test
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.ItemController] [main] [41] [INFO ] Items fetched successfully by : 
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.OrderController] [main] [45] [INFO ] Order successfully saved for user : test
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.UserController] [main] [51] [INFO ] Creating user test
+[2020-10-16T15:21:31.031Z] [com.example.demo.controllers.UserController] [main] [69] [INFO ] User successfully created : test
