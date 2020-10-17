@@ -37,3 +37,43 @@
 [2020-10-16T15:21:31.031Z] [com.example.demo.controllers.OrderController] [main] [45] [INFO ] Order successfully saved for user : test
 [2020-10-16T15:21:31.031Z] [com.example.demo.controllers.UserController] [main] [51] [INFO ] Creating user test
 [2020-10-16T15:21:31.031Z] [com.example.demo.controllers.UserController] [main] [69] [INFO ] User successfully created : test
+[2020-10-17T15:23:09.009Z] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting SareetaApplication on DESKTOP-8N4EKJG with PID 17152 (started by PC in C:\Users\PC\Desktop\udacity\proyecto 4\eCommerce)
+[2020-10-17T15:23:09.009Z] [org.springframework.boot.StartupInfoLogger] [main] [53] [DEBUG] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2020-10-17T15:23:09.009Z] [org.springframework.boot.SpringApplication] [main] [675] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-17T15:23:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2020-10-17T15:23:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2020-10-17T15:23:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.19]
+[2020-10-17T15:23:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-17T15:23:11.011Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2020-10-17T15:23:11.011Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2020-10-17T15:23:11.011Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2020-10-17T15:23:11.011Z] [org.hibernate.Version] [main] [46] [INFO ] HHH000412: Hibernate Core {5.3.10.Final}
+[2020-10-17T15:23:11.011Z] [org.hibernate.cfg.Environment] [main] [213] [INFO ] HHH000206: hibernate.properties not found
+[2020-10-17T15:23:11.011Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [49] [INFO ] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2020-10-17T15:23:11.011Z] [org.hibernate.dialect.Dialect] [main] [157] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-10-17T15:23:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2020-10-17T15:23:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [59] [INFO ] Started SareetaApplication in 3.619 seconds (JVM running for 4.074)
+[2020-10-17T15:24:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-17T15:24:00.000Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-1] [51] [INFO ] Creating user test
+[2020-10-17T15:24:00.000Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-1] [62] [ERROR] Password doesn't match with confirm Password. Cannot create user test
+[2020-10-17T15:24:51.051Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [51] [INFO ] Creating user test
+[2020-10-17T15:24:51.051Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [59] [ERROR] Password length should be longer than 7 characters. Cannot create user test
+[2020-10-17T15:24:58.058Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-6] [51] [INFO ] Creating user test
+[2020-10-17T15:24:58.058Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-6] [59] [ERROR] Password length should be longer than 7 characters. Cannot create user test
+[2020-10-17T15:25:07.007Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-8] [51] [INFO ] Creating user test
+[2020-10-17T15:25:07.007Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-8] [62] [ERROR] Password doesn't match with confirm Password. Cannot create user test
+[2020-10-17T15:25:44.044Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-10] [51] [INFO ] Creating user test
+[2020-10-17T15:25:44.044Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-10] [62] [ERROR] Password doesn't match with confirm Password. Cannot create user test
+[2020-10-17T15:26:01.001Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-2] [51] [INFO ] Creating user test
+[2020-10-17T15:26:01.001Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-2] [69] [INFO ] User successfully created : test
+[2020-10-17T15:27:35.035Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [51] [INFO ] Creating user test2
+[2020-10-17T15:27:35.035Z] [com.example.demo.controllers.UserController] [http-nio-8080-exec-4] [69] [INFO ] User successfully created : test2
+[2020-10-17T15:33:11.011Z] [org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter] [http-nio-8080-exec-10] [206] [DEBUG] Request is to process authentication
+[2020-10-17T15:33:11.011Z] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] [http-nio-8080-exec-10] [47] [INFO ] HHH000397: Using ASTQueryTranslatorFactory
+[2020-10-17T15:35:50.050Z] [com.example.demo.controllers.CartController] [http-nio-8080-exec-3] [56] [INFO ] Cart added successfully for user : test
+[2020-10-17T15:38:48.048Z] [com.example.demo.controllers.OrderController] [http-nio-8080-exec-6] [39] [ERROR] No user found for : test3
+[2020-10-17T15:39:11.011Z] [com.example.demo.controllers.OrderController] [http-nio-8080-exec-7] [39] [ERROR] No user found for : test4
+[2020-10-17T15:39:16.016Z] [com.example.demo.controllers.OrderController] [http-nio-8080-exec-8] [39] [ERROR] No user found for : test1
+[2020-10-17T15:39:23.023Z] [com.example.demo.controllers.OrderController] [http-nio-8080-exec-9] [45] [INFO ] Order successfully saved for user : test
